@@ -1,0 +1,13 @@
+QLayout classes:
+1.QBoxLayout
+*Vertical Layout
+*Horizontal Layout
+
+2.QFormLayout
+3.QGridLayout
+
+Note-
+Convertinng an UI file to PY file using command prompt :
+
+"pyuic5 -x FileName.ui -o FileName.py"
+
