@@ -1,0 +1,20 @@
+variables- They are the entities of a program that holds a value.
+
+datatypes- It is the type of value that we assign to a variable.
+
+Lists- It is basically a collection of values. With the help of lists, we can assign multiple values.
+It is container of different datatypes stored together.
+
+Tuple - The core difference between the List and the Tuples is immutable. we cannot change the values in case of tuples but we can change the values in case of lists.
+
+*print("") - Used to print something on the screen
+
+*age
+*name etc - Variables // print(age/name etc)
+
+*is_adult= True/False - Boolean 
+
+Numbers in Python-
+conversions
+arithmetic progression
+

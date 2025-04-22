@@ -1,0 +1,143 @@
+variables- They are the entities of a program that holds a value.
+ 
+Identifiers- An identifier is 
+
+datatypes- It is the type of value that we assign to a variable.
+
+Lists- It is basically a collection of values. With the help of lists, we can assign multiple values.
+It is a container of different datatypes stored together.
+
+Tuple - The core difference between the List and the Tuples is immutable. we cannot change the values in case of tuples but we can change the values in case of lists.
+
+*print("") - Used to print something on the screen
+
+*age
+*name etc - Variables // print(age/name etc)
+
+*is_adult= True/False - Boolean 
+
+Numbers in Python-
+conversions
+arithmetic progression
+
+Syntax- Computers are machines that can interpret your instructions only if you type them in the exact format that the computer expects. This is expected format-the spelling , formatting and grammer - is called the syntax
+
+Keywords- if,else,while
+
+Class- Complex,Exception
+
+PrivateVariable- _saquib , _nazeeb
+
+strongly private- __saquib , __nazeeb
+
+Special Purpose- _add_ , _init_
+
+
+
+Numeric
+
+ 
+
+Any representation of data that has a numeric value. Python identifies three types of numbers – integer, float and complex number.
+
+ 
+
+Integer
+
+Positive and negative whole numbers.
+
+Examples: 1234, -234, 0x46 (hexadecimal number), 0O123 (octal number))
+
+Note: In C and related programming languages such as Python, a hexadecimal number is prefixed with 0x and an octal number is prefixed with 0O.
+
+Float
+
+Real numbers with a floating point representation in which the fractional component is denoted by a decimal or scientific notation
+
+Examples: -55.550, 0.005, 1.32E10 (scientific notation))
+
+Complex number
+
+A number with a real and imaginary component is represented as a + bj inPython where a and b are floats and
+
+j = √-1
+​​​Examples: 4+6j, -2.3+6.4j
+
+Note: The common mathematical representation of a complex number uses a +bi with i being the imaginary part. But in electronics j is used because i already represent current and the next letter after i is j.
+
+Boolean
+
+ 
+
+Any representation of data that has two values denoted by True and False.
+
+Sequence
+
+ 
+
+An ordered collection of similar or different data types. The built-in Sequence data types in Python are – String, List, and Tuple.
+
+ 
+
+String
+
+A collection of one or more characters put in single, double or triple quotes.
+
+Examples: ‘Hello’, "Hello", "'Hello'", """Hello"""
+
+List
+
+An ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
+
+Examples:  [1,"Ravi",75.50, True]
+
+Tuple
+
+An ordered collection of one or more data items, not necessarily of the same type put in parentheses. The contents of a tuple cannot be modified – it is immutable - after the tuple is created.
+
+Examples: (1,"Ravi", 75.50, True)
+
+Note: Refer to the Helper Text to learn more about mutability.
+
+Dictionary
+
+ 
+
+An unordered collection of data in key: value form. The collections is enclosed in curly brackets.
+
+Example:  {1:"Superman", 2:"Wonder Woman", 3:"Thor", 4: "Hulk", 5:"Black Widow"}
+
+ 
+Numeric datatypes are divided into -
+float, integer, complex numbers
+
+1. Numeric literals
+
+literals- Fixed value in the source code.
+
+
+Note-*
+In programming languages such as python, a hexadecimal number is prefixed with 0x
+and an octal number is preferred with 00.
+
+A complex number – also known as an imaginary number – is defined as the square root of (-1) and is denoted by J or j. A complex number is represented as x+yj. Both x and y are real numbers. Y multiplied by the imaginary number forms the imaginary part of a complex number.
+
+You can use arithmetic operators on complex numbers in the same way as you would for integer or float data types. The output is governed by rules of mathematics for complex numbers.
+
+sqaure root are calculated -
+2**(1/2)
+
+int()
+complex()
+float()
+
+Set Data type
+
+Set is also a collection data type in Python. However,
+ it is not an ordered collection of objects, like a list or tuple. Hence, indexing and slicing operations cannot be done on a set object. 
+A set also doesn’t allow duplicate objects to be stored, whereas, in list and tuple, the same object can appear more than once. Even if an object is put more than once in a set, only one copy is held. Set is a Python implementation of a set as defined in Mathematics.
+ The set object has suitable methods to perform mathematical set operations like union, intersection, difference, etc. A set object contains one or more items, not necessarily of the same type which are separated by a comma and enclosed in curly brackets {}.
+
+
+Set is a specialized data type. One of the major applications of Python is an area of mathematical computing and data analysis in which set operations are important. We may drop this discussion considering it as not for a beginner (and also to curtail the size), but a learner (especially who intends to go in mathematical and scientific computing) should be encouraged to explore this section. We should emphasize this and provide this as a text for further reading.
+
